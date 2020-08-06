@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "fast": {
+      "description": "A blank schematic.",
+      "factory": "./fast/index#fastConfig",
+      "schema": "./fast/schema.json"
+    }
+  }
+}
