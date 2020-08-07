@@ -6,7 +6,7 @@ This repository is a basic Schematic implementation that is based on this [https
 
 To use locally,
 
-1. git clone this repository to the folder where you create your projects
+1. `git clone` this repository to the folder where you create your projects
 2. `sudo npm install -g @angular-devkit/schematics-cli`
 3. `sudo npm install -g @schematics/angular` 
 4. `cd angular-fast-serve`
