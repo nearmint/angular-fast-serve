@@ -1,28 +1,48 @@
-# Getting Started With Schematics
+# Angular Schematics: Faster Serve for Development
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+This repository is a basic Schematic implementation that is based on this (https://javascript-conference.com/blog/how-to-create-your-own-angular-schematics/)[guide].
 
-### Testing
+### Setup
 
-To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
+To use locally,
 
-Check the documentation with
-```bash
-schematics --help
+1. git clone this repository to the folder where you create your projects
+2. cd into the folder
+3. npm run build
+4. npm install
+5. cd ..
+6. add the following to your package.json in your projects folder (parent directory of this repo):
+```
+"scripts": {
+    "test": "schematics ./angular-fast-serve/src/collection.json:fast --debug=false"
+  }
 ```
 
-### Unit Testing
+7. now you can run `npm test` in your projects folder to create a new angular project with your custom configuration
 
-`npm run test` will run the unit tests, using Jasmine as a runner and test framework.
-
-### Publishing
-
-To publish, simply do:
-
-```bash
-npm run build
-npm publish
+8. inside the new project you can run `npm start` to run the following:
+`ng serve --live-reload=false -c fast -o`
+and the fast configuration is as follows:
 ```
+  "fast": {
+            "optimization": false,
+            "outputHashing": "none",
+            "sourceMap": false,
+            "extractCss": false,
+            "namedChunks": false,
+            "showCircularDependencies": true,
+            "aot": true,
+            "extractLicenses": false,
+            "statsJson": false,
+            "progress": false,
+            "vendorChunk": true,
+            "buildOptimizer": false,
+            "browserTarget": "ng-conference:build:fast",
+```
+
+This allows your serve to be faster when developing in the browser.
+
+
 
 That's it!
  
