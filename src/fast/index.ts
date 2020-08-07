@@ -4,6 +4,7 @@ export function fastConfig(_options: any): Rule {
 const name = _options.name
 return (tree: Tree, _context: SchematicContext) => {
   
+
  const templateSource = apply(url('./files'), [
      template({..._options, ...strings}),
    ]);

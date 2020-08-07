@@ -1,6 +1,6 @@
 {
-  "name": "fast",
-  "version": "0.0.0",
+  "name": "@nearmint/fast",
+  "version": "0.0.1",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -10,7 +10,7 @@
   "keywords": [
     "schematics"
   ],
-  "author": "",
+  "author": "nearmint",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
@@ -23,5 +23,14 @@
     "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "jasmine": "^3.5.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nearmint/angular-fast-serve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nearmint/angular-fast-serve/issues"
+  },
+  "homepage": "https://github.com/nearmint/angular-fast-serve#readme"
 }
