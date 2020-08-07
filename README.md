@@ -38,7 +38,8 @@ To use locally,
             "statsJson": false,
             "progress": false,
             "vendorChunk": true,
-            "buildOptimizer": false,
+            "buildOptimizer": false
+  }
 ```
 
 This allows your serve to be faster when developing in the browser.
