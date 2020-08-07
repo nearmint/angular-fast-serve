@@ -1,4 +1,4 @@
-# Angular Schematics: Faster Serve for Development
+# Faster Serve for Angular Development
 
 This repository is a basic Schematic implementation that is based on this (https://javascript-conference.com/blog/how-to-create-your-own-angular-schematics/)[guide].
 
