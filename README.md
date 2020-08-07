@@ -23,8 +23,8 @@ To use locally,
 9. now you can run `npm test` in your projects folder to create a new angular project with your custom configuration
 
 10. inside the new project you can run `npm start` to run the following:
+
 `ng serve --live-reload=false -c fast -o`
-and the fast configuration is as follows:
 ```
   "fast": {
             "optimization": false,
