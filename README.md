@@ -39,7 +39,6 @@ To use locally,
             "progress": false,
             "vendorChunk": true,
             "buildOptimizer": false,
-            "browserTarget": "ng-conference:build:fast",
 ```
 
 This allows your serve to be faster when developing in the browser.
