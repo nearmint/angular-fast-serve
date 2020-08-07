@@ -26,7 +26,7 @@ function generateRepo(name: string): Rule {
    version: '*',
    directory: name,
    routing: false,
-   style: 'scss',
+   style: 'css',
    inlineStyle: false,
    inlineTemplate: false
  });
