@@ -14,7 +14,7 @@ To use locally,
 5. `npm install`
 6. `npm run build`
 7. `cd ..`
-8. Edit the package.json in this parent folder (your projects folder), if you don't have a package.json there, use npm init to create a basic one and add the following to this file:
+8. Edit the package.json in this parent folder (your projects folder), if you don't have a package.json there, use `npm init` to create a basic one and add the following to this file:
 ```
 "scripts": {
     "test": "schematics ./angular-fast-serve/src/collection.json:fast --debug=false"
