@@ -2,6 +2,8 @@
 
 This repository is a basic Schematic implementation that is based on this [https://javascript-conference.com/blog/how-to-create-your-own-angular-schematics/](guide).
 
+I created this repo so that you can automatically create your Angular projects with predefined settings. In this script, I've pre-configured a config that allows for a faster `ng serve`. The script can also be changed to pre-load and pre-configure anything else you want for your new angular projects.
+
 ### Setup
 
 To use locally,
